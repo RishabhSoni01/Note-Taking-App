@@ -1,0 +1,432 @@
+/* ./src/tailwind.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles can be added below this line */
+/* For example: */
+
+/* Body and container styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #606361; /* Main background color */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Default text color */
+  }
+  
+
+/* Button styles */
+.button {
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Button text color */
+    transition: background-color 0.3s ease; /* Button hover transition */
+  }
+  
+  .button:hover {
+    background-color: #2980b9; /* Button background color on hover */
+  }
+
+/* Input styles */
+input[type='text'],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Card styles for notes */
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+    color: #cc822e; /* Title color */
+  }
+  
+  /* Description text styles */
+  p {
+    color: #6c757d; /* Description text color */
+    font-style: italic; /* Italic font style */
+  }
+  input[type='text']::placeholder,
+textarea::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+/* Additional styles based on your project's needs */
+/* ./src/tailwind.css */
+
+/* Your custom styles can be added below this line */
+
+/* Title styles */
+
+  
+  /* Container styles */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+   
+  }
+  
+  /* Flex layout */
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* NoteForm styles */
+/* ./src/tailwind.css */
+
+/* Your custom styles can be added below this line */
+
+/* ... (Previous styles) */
+
+/* Home Page specific styles */
+/* ./src/tailwind.css */
+
+/* Your custom styles can be added below this line */
+
+/* ... (Previous styles) */
+
+/* Home Page specific styles */
+.home1 {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #ecf0f1; /* Home Page container background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home2 {
+    color: #ff6b6b; /* Title color */
+    font-size: 48px; /* Adjusted font size */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increased letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .home3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .home4,
+  .home6 {
+    width: 45%; /* Adjusting the width */
+  }
+  
+  .home5 {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    color: #2c3e50; /* Text color */
+    transition: background-color 0.3s ease; /* Button hover transition */
+  }
+  
+  .home5:hover,
+  .home5:focus {
+    background-color: #ecf0f1; /* Hover background color */
+    cursor: pointer;
+  }
+  
+  .home7 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d35400; /* Note title color */
+  }
+  
+  /* Additional styles based on your project's needs */
+  
+  
+  /* Additional styles based on your project's needs */
+  
+
+  /* Animations */
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-5%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+  
+  .view1 {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .view2 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .view3 {
+    color: #555;
+  }
+  
+  .view4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .view5 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .view5:hover {
+    background-color: #2980b9;
+  }
+  
+  .view6 {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view6:hover {
+    background-color: #c0392b;
+  }
+
+  /* ./src/tailwind.css */
+
+/* Your custom styles can be added below this line */
+
+/* ... (Previous styles) */
+
+/* NoteItem specific styles */
+.note-item1 {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .note-item2 {
+    color: #555;
+  }
+  
+  .note-item3 {
+    margin-top: 12px;
+  }
+  
+  .note-item4,
+  .note-item5 {
+    color: #3498db;
+    margin-right: 8px;
+    text-decoration: none;
+  }
+  
+  .note-item4:hover,
+  .note-item5:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .note-item6 {
+    color: #e74c3c;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .note-item6:hover {
+    text-decoration: underline;
+  }
+  
+  /* NoteForm specific styles */
+  .add-note1 {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-note2 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-note2:hover {
+    background-color: #2980b9;
+  }
+  
+  /* tailwind.css or your preferred CSS file */
+
+/* ... (Previous styles) */
+
+/* EditNote specific styles */
+.edit1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .edit2,
+  .edit3 {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .edit3 {
+    height: 10rem; /* Adjust the height as needed */
+  }
+  
+  .edit4 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .edit4:hover {
+    background-color: #2980b9;
+  }
+  
+  .home1 {
+    background-color: #f1f1f1; /* Lighter background color */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .home2 {
+    color: #ff6b6b; /* Title color */
+    font-size: 48px; /* Adjusted font size */
+    font-weight: bold; /* Bold font weight */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Increased letter spacing */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .home5 {
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease;
+    font-size: 18px; /* Adjusted font size */
+    padding: 8px 20px; /* Adjusted padding */
+    border-radius: 6px;
+  }
+  
+  .home5:hover {
+    background-color: #2980b9; /* Button background color on hover */
+    cursor: pointer;
+  }
+  
+  .home7 {
+    color: #d35400; /* Note title color */
+    font-size: 20px; /* Adjusted font size */
+  }
+  
+  /* EditNote specific styles */
+  .edit1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333; /* Darker text color */
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .edit2,
+  .edit3 {
+    width: calc(100% - 20px); /* Adjusted width */
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff; /* Lighter background */
+    color: #333; /* Darker text color */
+  }
+  
+  .edit3 {
+    height: 10rem;
+  }
+  
+  .edit4 {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    animation: fadeInDown 0.5s ease;
+  }
+  
+  .edit4:hover {
+    background-color: #2980b9;
+  }
